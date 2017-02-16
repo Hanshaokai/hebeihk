@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <HorizontalScrollView
+        android:id="@+id/scroll_rgcontainer_downloadecomplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RadioGroup
+                android:id="@+id/rg_item_container"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <RadioButton
+                    android:id="@+id/rbtn_grmmar_item"
+                    style="@style/radio_style"
+
+                    android:text="教案"
+                    />
+
+                <RadioButton
+                    android:id="@+id/rbtn_courseware_item"
+                    style="@style/radio_style"
+                    android:text="课件"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/indicator"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="2dp"
+                android:background="@color/lightsalmon"
+                />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:padding="5dp"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_fileitem_container_downloadecomplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </android.support.v7.widget.RecyclerView>
+<!--这里改成ViewStub-->
+        <TextView
+            android:id="@+id/tv_emptyview_downloadecomplete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="您还没下载文件"
+            android:textSize="20sp"
+            android:visibility="gone"
+            />
+    </FrameLayout>
+
+</LinearLayout>

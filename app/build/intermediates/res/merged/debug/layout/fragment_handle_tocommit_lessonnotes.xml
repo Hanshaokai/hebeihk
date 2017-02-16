@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/coor_lesson_notes"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    >
+
+    <include layout="@layout/head_appbar_include"></include>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestscroll_tocommit_lesson_notes_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/lightblue"
+                    android:padding="5dp"
+                    android:text="注：请填写以下内容"
+                    android:textSize="16sp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/spacer_medium"
+                    android:showDividers="middle"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center"
+
+
+                        android:padding="5dp"
+                        android:text="@string/teachingTime"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:padding="5dp"
+                        android:text="@string/whichsection"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/black"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:divider="@drawable/spacer_medium"
+                    android:showDividers="middle"
+                    >
+
+                    <TextView
+                        android:id="@+id/et_tocommit_lesson_notes_lessontime"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:hint="@string/teachingTime"
+                        android:padding="5dp"
+
+                        />
+
+
+                    <EditText
+                        android:id="@+id/et_tocommit_lesson_notes_lessontime_part"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:hint="@string/whichsection"
+                        android:inputType="number"
+                        android:padding="5dp"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/black"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/spacer_medium"
+                    android:orientation="horizontal"
+
+                    android:showDividers="middle"
+                    >
+
+                    <TextView
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/teachername"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+
+                    <TextView
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/the_type_of_course"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+
+                    <TextView
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/course_title"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/black"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/spacer_medium"
+                    android:orientation="horizontal"
+
+                    android:showDividers="middle"
+                    >
+
+                    <EditText
+
+                        android:id="@+id/et_tocommit_lesson_notes_teachername"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:hint="@string/teachername"
+
+                        android:maxEms="4"
+                        android:padding="5dp"
+                        />
+
+                    <EditText
+
+                        android:id="@+id/et_tocommit_lesson_notes_lessontype"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:hint="@string/the_type_of_course"
+                        android:padding="5dp"
+                        />
+
+                    <EditText
+                        android:id="@+id/sp_tocommit_lesson_notes_lessonname"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:hint="@string/course_title"
+                        android:padding="5dp"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/btn_tocommit_lesson_notes_selectinfor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/lightblue"
+                    android:padding="5dp"
+                    android:text="注：在下面列表选择授课班级及科目"
+                    android:textSize="18sp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/spacer_medium"
+                    android:orientation="horizontal"
+                    android:showDividers="middle"
+                    android:weightSum="3"
+                    >
+
+                    <Spinner
+                        android:id="@+id/sp_tocommit_lesson_notes_lessongrade"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        />
+
+
+                    <Spinner
+                        android:id="@+id/sp_tocommit_lesson_notes_lessonclass"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        />
+
+
+                    <Spinner
+                        android:id="@+id/sp_tocommit_lesson_notes_subject"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:padding="5dp"
+                        />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="教学过程及板书记录:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                />
+
+            <EditText
+                android:id="@+id/et_tocommit_lesson_notes_lessonrecord"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="start"
+                android:hint="此处记录（限255字）"
+                android:maxEms="255"
+                android:minLines="6"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="教学分析及改进意见:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                />
+
+            <EditText
+                android:id="@+id/et_tocommit_lesson_notes_lessonanalysis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="start"
+                android:hint="此处记录（限255字）"
+                android:maxEms="255"
+                android:minLines="6"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                />
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

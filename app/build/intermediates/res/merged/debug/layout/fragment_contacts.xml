@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar_clude"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_clude"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/title_color"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <TextView
+                    android:id="@+id/tv_title_clude"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+
+
+                    android:text="标题"
+                    android:textColor="@color/white"
+
+                    android:textSize="@dimen/title_size"
+                    />
+
+                <com.rey.material.widget.ImageButton
+                    android:id="@+id/imagbtn_action_clude"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="8dp"
+                    android:background="@null"
+                    android:src="@mipmap/fab_add"
+                    android:visibility="gone"
+
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+
+        <RadioGroup
+            android:id="@+id/rgp_contacts_divide_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:divider="@color/space_color"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:showDividers="middle"
+
+            >
+
+            <RadioButton
+                android:id="@+id/rbt_contacts_divide_bygrade"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_contacts_item"
+                android:button="@null"
+                android:drawableTop="@mipmap/grade_tab"
+                android:gravity="center"
+                android:text="年级分组"
+                />
+
+
+            <RadioButton
+                android:id="@+id/rbt_contacts_divide_bysubject"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_contacts_item"
+                android:button="@null"
+                android:drawableTop="@mipmap/subject_tab"
+                android:gravity="center"
+                android:text="科目分组"
+                />
+
+            <RadioButton
+                android:id="@+id/rbt_contacts_divide_byleader"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_contacts_item"
+                android:button="@null"
+                android:drawableTop="@mipmap/leader_tab"
+                android:gravity="center"
+                android:text="领导分组"
+                />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+
+        android:background="@color/space_color"
+        />
+
+    <FrameLayout
+        android:id="@+id/fr_contacts_fragcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:padding="8dp"
+        >
+    </FrameLayout>
+
+
+</LinearLayout>

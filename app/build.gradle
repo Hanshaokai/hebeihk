@@ -1,0 +1,147 @@
+apply plugin: 'com.android.application'
+
+/*butterKnife 插件工具*/
+apply plugin: 'com.neenbedankt.android-apt'
+android {
+    /*6.0支持appclient库*/
+    signingConfigs {
+        huixiao {
+            keyAlias '慧校'
+            keyPassword 'hbhkappkey'
+            // storeFile file('F:/keystorepath/keystore.jks')
+            storePassword 'hbhkappkey'
+        }
+    }
+    useLibrary("org.apache.http.legacy")
+    compileSdkVersion 24
+    buildToolsVersion '24'
+    /* so文件设置*/
+
+/*
+*//*定义内存*//*
+    dexOptions {
+        javaMaxHeapSize "4g"
+Warning:The `android.dexOptions.incremental` property is deprecated and it has no effect on the build process.
+        preDexLibraries true
+
+        incremental true
+        dexInProcess = true
+    }*/
+/*//支持lint warning 检查机制
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+//为什么加入这个呢？防止冲突，比如我同时用了dagger-compiler就会报错，说下面这个`Processor`重复了
+    packagingOptions {
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+    }*/
+    defaultConfig {
+        /*默认设置*/
+        applicationId "cn.huischool.huixiao"
+        minSdkVersion 16
+        targetSdkVersion 21
+        versionCode 4
+        versionName "1.0.3"
+        multiDexEnabled true
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false;
+            debuggable true;
+            //shrinkResources true//移除无效的 资源文件
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//http://192.168.4.139:8000/mobile
+            buildConfigField 'String', 'TAG', '"TAG"'/*log标识*/
+            buildConfigField 'boolean', 'LOG', 'true'/*是否打印log*/
+            buildConfigField 'String', 'URL', '"http://101.200.211.110:8080/mobile"'/*连接的地址*/
+            buildConfigField 'String', 'TOKEN', '"a312eaf0f03d9936b8082fb46b2638a7"'
+            //applicationIdSuffix '.debug'
+            //环境分离
+        }
+        release {
+            minifyEnabled false
+            shrinkResources false
+            zipAlignEnabled true
+            debuggable false
+            buildConfigField 'String', 'TAG', '"TAG"'/*log标识*/
+            buildConfigField 'boolean', 'LOG', 'false'/*是否打印log*/
+            buildConfigField 'String', 'URL', '"http://www.huischool.cn/mobile"'/*连接的地址*/
+            buildConfigField 'String', 'TOKEN', '"a312eaf0f03d9936b8082fb46b2638a7"'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    /* so文件设置*/
+    sourceSets {
+        main {
+           //Error:Cannot read packageName from E:\han\svn\hebeihk\app\AndroidManifest.xml
+            jniLibs.srcDirs = ['libs']
+
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+
+dependencies {
+    /*极光*/
+    //compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    /*材料设计高版本支持库*/
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.android.support:design:24.0.0'
+    /*加入flexbox 后出现	Suppressed: java.lang.ClassNotFoundException: android.support.v7.widget
+                                                                .TintManager 在setepupwithViewpager 这个方法上出现错误 当把design库改成24版本恢复正常 不知道什么原理*/
+    /*其中一个回答change gradle dependenices
+
+
+
+                                                                /*第三方材料设计库*/
+    compile 'com.github.rey5137:material:1.2.4'
+    /*卡片视图*/
+    compile 'com.android.support:cardview-v7:24.0.0'
+    /*listview 的替代*/
+    compile 'com.android.support:recyclerview-v7:24.0.0'
+    /*注解butterKnife*/
+    compile 'com.jakewharton:butterknife:8.0.1'
+    apt 'com.jakewharton:butterknife-compiler:8.0.1'
+    /*ButterKnife插件*/
+    compile 'com.jakewharton:butterknife-annotations:8.0.1'
+    compile 'com.android.support:support-annotations:24.0.0'
+    /*蒲公英内测平台*/
+    compile 'com.pgyersdk:sdk:2.4.0'
+    /* 图片 picasso*/
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    //https://github.com/jeasonlzy0216/OkHttpUtils
+    compile 'com.lzy.net:okhttputils:1.8.0'
+    //可以单独使用，不需要依赖下方的扩展包
+    compile 'com.lzy.net:okhttpserver:1.0.2'
+    //扩展了下载管理和上传管理，根据需要添加
+    /*百度性能服务依赖库*/
+    compile project(':bDIntegrationSDK_LibProject')
+    /*谷歌官方标签库*/
+    compile 'com.google.android:flexbox:0.2.2'
+    /*解析库*/
+    compile 'com.alibaba:fastjson:1.2.12'
+    /*仿iOS的PickerView控件，有时间选择和选项选择并支持一二三级联动效果*/
+    compile 'com.bigkoo:pickerview:2.1.0'
+    compile project(':easeui')
+    compile files('libs/jcore-android_v1.0.0.jar')
+    compile files('libs/jpush-android_v3.0.0.jar')
+    //第三方数据库
+   compile 'org.litepal.android:core:1.4.1'
+
+}
+
+
+
+

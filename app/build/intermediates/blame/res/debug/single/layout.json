@@ -1,0 +1,942 @@
+[
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_research_table_number_presented.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\item_research_table_number_presented.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_notifi.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_notifi.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_notifi_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_notifi_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_loadefile_during_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\adapter_loadefile_during_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_receive_approval_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\adapter_receive_approval_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_online_acce_affiche_detail.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_online_acce_affiche_detail.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_online_my_coureseware_detail.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_online_my_coureseware_detail.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_loadedfile_during.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_loadedfile_during.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_baidumap.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_activity_baidumap.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_picture.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_received_picture.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_voice.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_received_voice.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_video_call.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_sent_video_call.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_chat.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\em_activity_chat.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pickerview_options.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.bigkoo\\pickerview\\2.1.0\\res\\layout\\pickerview_options.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_online_my_studynotes_detail.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_online_my_studynotes_detail.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_onlinehandle_reasearch_table_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_onlinehandle_reasearch_table_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bottomsheet_choose_courseware_file_dialog.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\bottomsheet_choose_courseware_file_dialog.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_message.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_received_message.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_online_my_activitiesofteachandresearch_detail.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_online_my_activitiesofteachandresearch_detail.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_textfile_loadecomplete_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\adapter_textfile_loadecomplete_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_onlinehandle_mineteacherplan_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_onlinehandle_mineteacherplan_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bdp_update_activity_confirm_dialog.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\bDIntegrationSDK_LibProject\\unspecified\\res\\layout\\bdp_update_activity_confirm_dialog.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine_changepic_select.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_mine_changepic_select.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_onlinehandle_checkgrammar_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_onlinehandle_checkgrammar_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_converation_list_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_converation_list_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_voice.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_sent_voice.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine_changepass.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_mine_changepass.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_my_lessonnotes_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\adapter_my_lessonnotes_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_tosend_notifi_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\adapter_tosend_notifi_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\jpush_webview_layout.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\jpush_webview_layout.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_voice_recorder.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_widget_voice_recorder.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_online_research_table.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_online_research_table.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_conversation_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_conversation_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_contact_list.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_widget_contact_list.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_handle_grammar.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_handle_grammar.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_emojicon.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_emojicon.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_my_courseware_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\adapter_my_courseware_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine_setting.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_mine_setting.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_notifi_head.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\item_notifi_head.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_voice_call.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_sent_voice_call.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\diag_item_receapproval_fragment.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\diag_item_receapproval_fragment.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_commom_back_btn.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_commom_back_btn.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_inform_approval_comment_detail.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\item_inform_approval_comment_detail.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_handle_notifi.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_handle_notifi.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_edresource.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_edresource.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_meetingrecord_notes_comment_detail.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\item_meetingrecord_notes_comment_detail.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_emojicon.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_widget_emojicon.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_yetsend_header_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\adapter_yetsend_header_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_expression.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_expression.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_spn_dropdown.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\row_spn_dropdown.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_affiche_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_affiche_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_layout_chat_primary_menu.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_layout_chat_primary_menu.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_school_contacts_dividedbygrade.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\item_school_contacts_dividedbygrade.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_file.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_sent_file.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_yetsend_affich_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\adapter_yetsend_affich_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_online_acce_approval_detail.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_online_acce_approval_detail.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_my_studynotes_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\adapter_my_studynotes_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_chat_input_menu.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_widget_chat_input_menu.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tosendnotifi_notifi.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_tosendnotifi_notifi.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\element_listitem_notifi.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\element_listitem_notifi.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_handle_tocommit_activitiesofteachandresearch.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_handle_tocommit_activitiesofteachandresearch.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_showvideo_activity.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_showvideo_activity.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine_feedback.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_mine_feedback.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_file.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_received_file.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_school_contacts_dividedbyclass.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\item_school_contacts_dividedbyclass.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_video.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_sent_video.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_chat_neterror_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\em_chat_neterror_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_online_acce_notifi_detail.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_online_acce_notifi_detail.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_handle_lessonnotes.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_handle_lessonnotes.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mine_setting_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_mine_setting_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_onlinehandle_studynotes_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_onlinehandle_studynotes_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_yetsend_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\adapter_yetsend_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\diag_item_homefragment.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\diag_item_homefragment.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_file_manage.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_file_manage.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_online_notifidetail.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_online_notifidetail.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_yetsend_approval_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\adapter_yetsend_approval_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_handle_school_resource.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_handle_school_resource.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_handle_tocommit_studynotes.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_handle_tocommit_studynotes.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_chat_history.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_chat_history.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_handle_meetingrecord.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_handle_meetingrecord.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_onlinehandle.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_onlinehandle.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_emojicon_tab_bar.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_widget_emojicon_tab_bar.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_location.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_sent_location.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_fragment_contact_list.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_fragment_contact_list.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\childfragment_contacts_divided.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\childfragment_contacts_divided.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mine_feedback_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_mine_feedback_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_appbar_include.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\head_appbar_include.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_video_call.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_received_video_call.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mine_filemanage_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_mine_filemanage_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine_countinfor.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_mine_countinfor.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_school_teacher_plans_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\adapter_school_teacher_plans_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tag_item_tv.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\tag_item_tv.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_chat_menu_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_chat_menu_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mine_count_detail_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_mine_count_detail_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tosend_approval.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_tosend_approval.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_picture.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_sent_picture.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_expression_gridview.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_expression_gridview.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_lesson_notes_comment_detail.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\item_lesson_notes_comment_detail.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mine_changeinfor_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_mine_changeinfor_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_title_bar.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_widget_title_bar.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_online_affiche_detail.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_online_affiche_detail.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_fragment_conversation_list.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_fragment_conversation_list.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_receive_notifi_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\adapter_receive_notifi_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_webview_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_webview_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\person_detail_fragment.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\person_detail_fragment.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_basepickerview.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.bigkoo\\pickerview\\2.1.0\\res\\layout\\layout_basepickerview.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\childfragment_contacts_divided_bysubject.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\childfragment_contacts_divided_bysubject.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_inform_me_approval.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_inform_me_approval.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_pickerview_topbar.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.bigkoo\\pickerview\\2.1.0\\res\\layout\\include_pickerview_topbar.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_handle_courseware.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_handle_courseware.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_show_big_image.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_activity_show_big_image.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_online_inform_approval_detail.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_online_inform_approval_detail.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_table_handle.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_table_handle.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tosend_affiche.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_tosend_affiche.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_study_notes_comment_detail.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\item_study_notes_comment_detail.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_onlinehandle_meetingrecord_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_onlinehandle_meetingrecord_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_scroll_tab_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_scroll_tab_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_affiche_head.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\item_affiche_head.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_homepage.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_homepage.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_handle_tocommit_meetingrecord.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_handle_tocommit_meetingrecord.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_school_contacts_teacher.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\item_school_contacts_teacher.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_handle_tocommit_lessonnotes.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_handle_tocommit_lessonnotes.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_my_grammar_comment_detail.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\item_my_grammar_comment_detail.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_onlinehandle_checkcourseware_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_onlinehandle_checkcourseware_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mine_infor_change_pic_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_mine_infor_change_pic_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icon_handle.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\icon_handle.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_approval_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_approval_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_contact.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_contact.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_news_detail.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_home_news_detail.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_voice_call.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_received_voice_call.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_check_courseware_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\adapter_check_courseware_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_online_checkgrammar.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_online_checkgrammar.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_handle_activitiesofteachandresearch.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_handle_activitiesofteachandresearch.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_search_bar_with_padding.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_search_bar_with_padding.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_activitiesofteachandresearch_comment_detail.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\item_activitiesofteachandresearch_comment_detail.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_message.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_sent_message.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_file_loadcomplete.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_file_loadcomplete.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_my_activitiesofteachandresearch_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\adapter_my_activitiesofteachandresearch_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_handle_affich.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_handle_affich.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_onlinehandle_activitiesofteachandresearch_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_onlinehandle_activitiesofteachandresearch_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_video.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_received_video.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_layout_emojicon_menu.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_layout_emojicon_menu.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_online_my_meetingrecord_detail.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_online_my_meetingrecord_detail.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_point_tosearch.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\popupwindow_point_tosearch.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_check_grammar_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\adapter_check_grammar_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_location.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_received_location.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_school_contacts_dividedby_subject.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\item_school_contacts_dividedby_subject.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_online_checkcourseware.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_online_checkcourseware.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_online_lessonnotes_detail.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_online_lessonnotes_detail.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragement_preview.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragement_preview.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_my_meetingrecord_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\adapter_my_meetingrecord_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_switch_button.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_widget_switch_button.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_bigexpression.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_sent_bigexpression.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_my_grammar_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\adapter_my_grammar_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine_home.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_mine_home.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_affiche.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_affiche.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_online_teacher_plans_fragment.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_online_teacher_plans_fragment.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_bigexpression.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_received_bigexpression.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_onlinehandle_lessonnotes_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_onlinehandle_lessonnotes_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine_infor.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_mine_infor.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_chat_message_list.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_chat_message_list.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_search_bar.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_search_bar.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contacts_detail_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_contacts_detail_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bottomsheet_choosefile_grammar_dialog.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\bottomsheet_choosefile_grammar_dialog.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_receive_affiche_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\adapter_receive_affiche_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_big_expression.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_row_big_expression.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_handle_approval.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_handle_approval.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_onlinehandle_minecourseware_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_onlinehandle_minecourseware_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_online_mygrammar_detail.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_online_mygrammar_detail.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_chat_primary_menu.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_widget_chat_primary_menu.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_fragment_chat.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_fragment_chat.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_alert_dialog.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_alert_dialog.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\jpush_popwin_layout.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\jpush_popwin_layout.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_school_contacts_dividedby_leader.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\item_school_contacts_dividedby_leader.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_yetsend_approval.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_yetsend_approval.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_school_resource.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\activity_school_resource.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_contacts.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_contacts.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_handle_studynotes.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_handle_studynotes.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_online_yetsend_approvaldetail.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\fragment_online_yetsend_approvaldetail.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_tosend_notifi_item.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\layout\\popupwindow_tosend_notifi_item.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_show_file.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\hebeihk\\easeui\\unspecified\\res\\layout\\ease_activity_show_file.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pickerview_time.xml",
+        "source": "D:\\svn\\hebeihk\\app\\build\\intermediates\\exploded-aar\\com.bigkoo\\pickerview\\2.1.0\\res\\layout\\pickerview_time.xml"
+    }
+]

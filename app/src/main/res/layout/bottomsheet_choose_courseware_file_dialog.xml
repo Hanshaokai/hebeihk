@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/tv_themename_courseware_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subjectName"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/et_themename_courseware_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_themename_courseware_txt"
+        android:layout_toRightOf="@+id/tv_themename_courseware_txt"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_gradecontainer_courseware_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_themename_courseware_item"
+        android:layout_marginTop="10dp"
+        android:text="@string/chooseGradeName"
+        android:textSize="16sp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_gradecontainer_courseware_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_themename_courseware_item"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/tv_gradecontainer_courseware_txt"
+        >
+    </Spinner>
+
+    <TextView
+        android:id="@+id/tv_subjectcontainer_courseware_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_gradecontainer_courseware_txt"
+        android:layout_marginTop="10dp"
+        android:text="@string/chooseSubjectName"
+        android:textSize="16sp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_subjectcontainer_courseware_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_gradecontainer_courseware_txt"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/tv_subjectcontainer_courseware_txt2"
+
+        >
+
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/tv_textbookcontainer_courseware_txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_subjectcontainer_courseware_txt2"
+        android:layout_marginTop="10dp"
+        android:text="@string/chooseTextBook"
+        android:textSize="16sp"
+        />
+
+    <RadioGroup
+        android:id="@+id/radio_textbookcontainer_courseware_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_subjectcontainer_courseware_txt2"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/tv_textbookcontainer_courseware_txt3"
+        android:orientation="horizontal"
+
+        >
+
+
+        <RadioButton
+
+            android:id="@+id/btn_first_volume_courseware_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="上册"
+            />
+
+        <RadioButton
+            android:id="@+id/btn_down_volume_courseware_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="下册"
+            />
+    </RadioGroup>
+
+    <TextView
+
+        android:id="@+id/tv_adaptergrammar_courseware_text_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_textbookcontainer_courseware_txt3"
+        android:layout_marginTop="10dp"
+        android:text="@string/isOrNoToAdapterGrammar"
+        android:textSize="16sp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/radio_adaptergrammar_courseware_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_textbookcontainer_courseware_txt3"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/tv_adaptergrammar_courseware_text_item"
+        android:orientation="horizontal"
+
+        >
+
+
+        <RadioButton
+
+            android:id="@+id/btn_adapter_courseware_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="@string/is"
+            />
+
+        <RadioButton
+            android:id="@+id/btn_noadapter_courseware_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="@string/no"
+            />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/ly_adapter_grammarlist_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio_adaptergrammar_courseware_item"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/selectGrammarFile"
+            android:textSize="16sp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_adapter_grammarlist_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+        </Spinner>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_fileuplode_courseware_text_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ly_adapter_grammarlist_item"
+        android:layout_marginTop="10dp"
+        android:text="@string/fileUplode"
+        android:textSize="16sp"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/btn_choosefile_courseware_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ly_adapter_grammarlist_item"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/tv_fileuplode_courseware_text_item"
+        android:text="@string/chooseFile"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_choosefile_name_courseware_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_choosefile_courseware_item"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="文件路径"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_progresspercent_courseware_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/tv_choosefile_name_courseware_item"
+        android:layout_marginBottom="10dp"
+        android:text="进度"
+        />
+
+    <com.rey.material.widget.ProgressView
+        android:id="@+id/pv_progress_courseware_item"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_alignBaseline="@+id/tv_progresspercent_courseware_item"
+        android:layout_below="@+id/tv_choosefile_name_courseware_item"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/tv_progresspercent_courseware_item"
+        app:pv_autostart="false"
+        app:pv_circular="false"
+        app:pv_progressMode="determinate"
+        app:pv_progressStyle="@style/LightDeterminateLinearProgressDrawable"
+        />
+
+
+    <Button
+        android:id="@+id/btn_savefile_courseware_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_progresspercent_courseware_item"
+        android:text="保存"
+        />
+
+
+    <Button
+        android:id="@+id/btn_submmitfile_courseware_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_progresspercent_courseware_item"
+        android:layout_toRightOf="@+id/btn_savefile_courseware_item"
+        android:text="提交"
+        />
+
+    <Button
+        android:id="@+id/btn_cancel_courseware_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_progresspercent_courseware_item"
+        android:layout_toRightOf="@+id/btn_submmitfile_courseware_item"
+        android:text="取消"
+        />
+</RelativeLayout>

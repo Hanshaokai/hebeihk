@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\jpush_ic_richpush_actionbar_divider.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-hdpi\\jpush_ic_richpush_actionbar_divider.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\app_logo.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-hdpi\\app_logo.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\online.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-hdpi\\online.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wodehui.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-hdpi\\wodehui.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\shouyehui.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-hdpi\\shouyehui.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\zaixianbangong.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-hdpi\\zaixianbangong.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_done.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-hdpi\\ic_done.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\shouye.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-hdpi\\shouye.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wode.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-hdpi\\wode.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mine.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-hdpi\\mine.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\zaixianbangonghui.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-hdpi\\zaixianbangonghui.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_login_error_icon.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-hdpi\\em_login_error_icon.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\fab_add.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-hdpi\\fab_add.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\jpush_ic_richpush_actionbar_back.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-hdpi\\jpush_ic_richpush_actionbar_back.png"
+    }
+]

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/online_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:theme="@style/AppTheme.AppBarOverlay"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/online_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/title_color"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:text="办公管理"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title_size"
+                />
+
+
+        </android.support.v7.widget.Toolbar>
+
+        <!-- <android.support.design.widget.TabLayout
+             android:id="@+id/online_tabs"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+
+             android:background="#DFDFDF"
+             android:visibility="gone"
+             app:tabMode="fixed"
+             app:tabPadding="3dp"
+             app:tabSelectedTextColor="@color/main_red"
+             app:tabTextColor="@color/white"
+             ></android.support.design.widget.TabLayout>-->
+    </android.support.design.widget.AppBarLayout>
+
+    <!--<android.support.v4.view.ViewPager
+        android:id="@+id/online_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        ></android.support.v4.view.ViewPager>
+
+    <com.rey.material.widget.FloatingActionButton
+        android:id="@+id/online_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+
+
+        ></com.rey.material.widget.FloatingActionButton>-->
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swip_online_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/space_color"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    />
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:text="在线办公"
+
+                    android:textSize="18sp"
+                    />
+
+                <com.rey.material.widget.LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    >
+
+                    <RadioButton
+                        android:id="@+id/rbt_notifi_item_handle_fragment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@mipmap/tongzhicircle"
+                        android:gravity="center"
+                        android:text="通知"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/rbt_affiche_item_handle_fragment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@mipmap/gonggaocircle"
+                        android:gravity="center"
+                        android:text="公告"
+
+                        />
+
+
+                    <RadioButton
+                        android:id="@+id/rbt_approval_item_handle_fragment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@mipmap/zaixianshenpicircle"
+                        android:gravity="center"
+                        android:text="在线审批"
+                        />
+                </com.rey.material.widget.LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    />
+
+                <com.rey.material.widget.TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:text="在线备课"
+                    android:textSize="18sp"
+                    />
+
+
+                <com.rey.material.widget.LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    >
+
+                    <RadioButton
+                        android:id="@+id/rbt_minePlan_item_handle_fragment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@mipmap/jiaoancircle"
+                        android:gravity="center"
+                        android:text="教案"
+
+                        />
+
+                    <RadioButton
+                        android:id="@+id/rbt_checkPlan_item_handle_fragment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@mipmap/jiaoancircle"
+                        android:gravity="center"
+                        android:text="查阅教案"
+                        android:visibility="gone"
+
+                        />
+
+                    <RadioButton
+                        android:id="@+id/rbt_courseware_item_handle_fragment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@mipmap/kejiancircle"
+                        android:gravity="center"
+                        android:text="课件"
+
+                        />
+
+                    <RadioButton
+                        android:id="@+id/rbt_checkCourseWare_item_handle_fragment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@mipmap/kejiancircle"
+                        android:gravity="center"
+                        android:text="查阅课件"
+                        android:visibility="gone"
+
+                        />
+
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@mipmap/ic_launcher"
+                        android:gravity="center"
+                        android:text="素材"
+                        android:visibility="gone"
+
+                        />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@mipmap/ic_launcher"
+                        android:gravity="center"
+                        android:text="试题"
+                        android:visibility="gone"
+
+                        />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@mipmap/ic_launcher"
+                        android:gravity="center"
+                        android:text="视频课"
+                        android:visibility="gone"
+                        />
+
+                </com.rey.material.widget.LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    />
+
+                <com.rey.material.widget.TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:text="研修管理"
+                    android:textSize="18sp"
+                    />
+
+                <com.rey.material.widget.LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="5dp"
+
+                    >
+
+                    <RadioButton
+                        android:id="@+id/rbt_lessonnotes_item_handle_fragment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@mipmap/tingkejilucircle"
+                        android:gravity="center"
+                        android:text="听课记录"
+
+                        />
+
+                    <RadioButton
+                        android:id="@+id/rbt_meetingrecord_item_handle_fragment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@mipmap/huiyijilucircle"
+                        android:gravity="center"
+                        android:text="会议记录"
+
+                        />
+
+                    <RadioButton
+                        android:id="@+id/rbt_studynotes_item_handle_fragment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@mipmap/xuexibijicircle"
+                        android:gravity="center"
+                        android:text="学习笔记"
+
+                        />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@mipmap/ic_launcher"
+                        android:gravity="center"
+                        android:text="教研活动"
+                        android:visibility="gone"
+
+                        />
+
+                    <RadioButton
+                        android:id="@+id/rbt_activitiesofteachingandresearch_item_handle_fragment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@mipmap/jiaoyanhuodongcircle"
+                        android:gravity="center"
+                        android:text="教研活动"
+
+                        />
+
+                </com.rey.material.widget.LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    />
+
+
+                <com.rey.material.widget.TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:text="工作批阅"
+                    android:textSize="18sp"
+                    />
+
+                <com.rey.material.widget.LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:weightSum="4"
+                    android:padding="5dp"
+
+                    >
+
+                    <RadioButton
+                        android:id="@+id/rbt_activitiesof_reserch_table_item_handle_fragment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@mipmap/tingkejilucircle"
+                        android:gravity="center"
+                        android:text="教师教研表"
+                        />
+
+
+                </com.rey.material.widget.LinearLayout>
+
+                <com.rey.material.widget.TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/lightblue"
+                    android:padding="5dp"
+                    android:text="资源共享"
+                    android:visibility="gone"
+                    />
+
+                <com.rey.material.widget.LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    android:visibility="gone"
+                    >
+
+                    <RadioButton
+                        android:id="@+id/rbt_schoolresource_item_handle_frgament"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@mipmap/xiaoneiziyuancircle"
+                        android:gravity="center"
+                        android:text="校内资源"
+
+                        />
+
+                    <RadioButton
+                        android:id="@+id/rbt_platformresource_item_handle_fragment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableTop="@mipmap/pingtaiziyuancircle"
+                        android:gravity="center"
+                        android:text="平台资源"
+
+                        />
+
+
+                </com.rey.material.widget.LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v4.widget.NestedScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

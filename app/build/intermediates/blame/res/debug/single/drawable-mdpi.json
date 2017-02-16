@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\zaixianbangong.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-mdpi\\zaixianbangong.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\app_logo.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-mdpi\\app_logo.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\wode.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-mdpi\\wode.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\shouye.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-mdpi\\shouye.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\gonggao_online_item.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-mdpi\\gonggao_online_item.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_home_black_24dp.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-mdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\shouyehui.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-mdpi\\shouyehui.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\wodehui.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-mdpi\\wodehui.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\tongzhi_online_item.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-mdpi\\tongzhi_online_item.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\zaixianbangonghui.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-mdpi\\zaixianbangonghui.png"
+    }
+]

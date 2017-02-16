@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="iconhandle">
+        <item>公告</item>
+        <item>通知</item>
+        <item>在线批阅</item>
+    </string-array>
+
+    <string-array name="sentnotitype">
+        <item>请选择</item>
+        <item>全体教职工</item>
+        <item>全体校领导</item>
+        <item>全体教师</item>
+        <item>单个校领导</item>
+        <item>单个教师</item>
+        <item>按年级选择教师</item>
+        <item>按班级选择教师</item>
+        <item>按学科选择教师</item>
+        <item>按学科与年级选择教师</item>
+
+
+    </string-array>
+
+    <string-array name="appprovaltype">
+        <item>请选择申请类型</item>
+        <item>资金</item>
+        <item>出差</item>
+        <item>外勤</item>
+        <item>借款</item>
+        <item>休假</item>
+        <item>报销</item>
+        <item>公文</item>
+        <item>其他</item>
+        <item>采购</item>
+        <item>入职</item>
+        <item>调班</item>
+        <item>加班</item>
+
+
+    </string-array>
+    <string-array name="approvalType">
+
+        <item>申请资金</item>
+        <item>申请出差</item>
+        <item>申请外勤</item>
+        <item>申请借款</item>
+        <item>申请休假</item>
+        <item>申请报销</item>
+        <item>申请公文</item>
+        <item>申请其他</item>
+        <item>申请采购</item>
+        <item>申请入职</item>
+        <item>申请调班</item>
+        <item>申请加班</item>
+
+    </string-array>
+
+    <string-array name="approvalState">
+        <item>待审批</item>
+        <item>审批中</item>
+        <item>审批未通过</item>
+        <item>审批通过</item>
+    </string-array>
+    <string-array name="subjectitem">
+        <item>全部</item>
+        <item>数学</item>
+        <item>英语</item>
+        <item>综合实践</item>
+        <item>体育</item>
+        <item>音乐</item>
+        <item>美术</item>
+        <item>信息技术</item>
+        <item>科学</item>
+    </string-array>
+    <string-array name="classitem">
+        <item>全部</item>
+        <item>一年级</item>
+        <item>二年级</item>
+        <item>三年级</item>
+        <item>四年级</item>
+        <item>五年级</item>
+        <item>六年级</item>
+    </string-array>
+</resources>

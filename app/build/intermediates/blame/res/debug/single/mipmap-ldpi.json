@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi\\kejian_online.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\mipmap-ldpi\\kejian_online.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi\\contacts_grey_tab.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\mipmap-ldpi\\contacts_grey_tab.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi\\docimg.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\mipmap-ldpi\\docimg.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi\\ic_point_right_black.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\mipmap-ldpi\\ic_point_right_black.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi\\ic_point_right_white.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\mipmap-ldpi\\ic_point_right_white.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi\\pptimg.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\mipmap-ldpi\\pptimg.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi\\contacts_blue_tab.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\mipmap-ldpi\\contacts_blue_tab.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi\\jiaoan_online.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\mipmap-ldpi\\jiaoan_online.png"
+    }
+]

@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/title_color"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        />
+
+    <LinearLayout
+        android:id="@+id/group_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@color/bg_gray"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        >
+
+        <RadioButton
+            android:id="@+id/rbt_tab_homepage"
+            style="@style/main_tab_bar"
+            android:drawableTop="@drawable/homepage_selector"
+            android:text="首页"
+            />
+
+
+        <RadioButton
+            android:id="@+id/rbt_tab_onhandle"
+            style="@style/main_tab_bar"
+            android:drawableTop="@drawable/onlinehandle_selector"
+            android:text="办公管理"
+            />
+
+        <RadioButton
+            android:id="@+id/rbt_tab_edresources"
+            style="@style/main_tab_bar"
+            android:text="教育研修"
+            android:visibility="gone"
+            />
+
+        <RadioButton
+            android:id="@+id/rbt_tab_contacts"
+            style="@style/main_tab_bar"
+            android:drawableTop="@drawable/onlinecontacts_delector"
+            android:text="通讯录"
+
+            />
+
+        <RadioButton
+            android:id="@+id/rbt_tab_mine"
+            style="@style/main_tab_bar"
+            android:drawableTop="@drawable/mine_selector"
+            android:text="我的"
+            />
+    </LinearLayout>
+</LinearLayout>

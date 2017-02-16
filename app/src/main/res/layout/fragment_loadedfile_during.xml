@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_loade_during_stopall"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="暂停所有"
+                android:textColor="@color/blue"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_loade_during_startall"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="开始所有"
+                android:textColor="@color/blue"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_loade_during_removeall"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="移除所有"
+                android:textColor="@color/blue"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/bg_gray"
+
+            />
+
+        <ListView
+            android:id="@+id/lv_loadefile_during"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            ></ListView>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_emptyview_loadefile_during"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="在这里管理正在下载的任务"
+        android:textSize="20sp"
+        android:visibility="gone"
+        />
+</FrameLayout>

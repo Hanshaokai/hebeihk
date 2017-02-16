@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical"
+              android:padding="5dp"
+    >
+
+    <TextView
+        android:id="@+id/checked_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="查看："
+        android:textSize="18sp"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgrey"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/spacer_medium"
+        android:showDividers="middle"
+        android:weightSum="2"
+        >
+
+        <TextView
+            android:id="@+id/tv_search_grammar_pop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:minEms="4"
+            android:padding="8dp"
+            android:text="教案"
+            android:textColor="@color/title_color"
+            android:textSize="17sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_search_courseware_pop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:minEms="4"
+            android:padding="8dp"
+            android:text="课件"
+            android:textColor="@color/title_color"
+            android:textSize="17sp"
+            />
+
+
+    </LinearLayout>
+
+b
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/spacer_medium"
+        android:showDividers="middle"
+        android:weightSum="2"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="课程体会"
+            android:textColor="@color/title_color"
+            android:textSize="17sp"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="学习笔记"
+            android:textColor="@color/title_color"
+            android:textSize="17sp"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/spacer_medium"
+        android:showDividers="middle"
+        android:weightSum="2"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="会议记录"
+            android:textColor="@color/title_color"
+            android:textSize="17sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="教研活动"
+            android:textColor="@color/title_color"
+            android:textSize="17sp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

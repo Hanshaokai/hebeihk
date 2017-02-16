@@ -1,0 +1,102 @@
+<resources>
+
+
+    <!-- <style name="Theme.DesignDemo" parent="Base.Theme.DesignDemo">
+     </style>
+ -->
+
+    <!-- 主界面 下边  四个Tab 样式 -->
+    <style name="main_tab_bar">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/selector_color_main_tab_bar</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!--右滑返回-->
+    <style name="AppTheme.NoActionBar.Translucent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="colorPrimary">@color/transparent</item>
+    </style>
+    <!--右滑返回-->
+    <!-- <style name="MenuButtonsSmall">
+         <item name="fab_size">mini</item>
+         <item name="fab_colorNormal">#1565C0</item>
+         <item name="fab_colorPressed">#2272CD</item>
+         <item name="fab_colorRipple">#62B2FF</item>
+     </style>-->
+
+    <style name="CustomStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--去掉actionbar-->
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#1570A6</item>
+        <item name="colorPrimaryDark">#454545</item>
+        <item name="colorAccent">#F48309</item>
+    </style>
+
+    <!--没用到-->
+    <style name="AlertDialog">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:angle">200</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item> <!-- 模糊 -->
+        <item name="android:windowIsFloating">true</item><!-- 类似windows的弹出Dialog -->
+        <item name="android:windowContentOverlay">@null</item>
+        不要头部阴影
+        <item name="android:windowBackground">@color/transparent</item>   <!-- 背景颜色设置透明-->
+    </style>
+
+    <!--沉浸式配置-->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/lightgreen</item>
+    </style>
+    <!-- Application theme. -->
+
+
+    <style name="AppTheme2" parent="Base.Theme.DesignDemo">
+
+    </style>
+
+    <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#607D8B</item>
+        <item name="colorPrimaryDark">#2F85F2</item>
+        <item name="colorAccent">#FF4081</item>
+    </style>
+
+    <style name="radio_style">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <!--开展开列表 点击背景效果-->
+    <style name="ItemBg">
+        <item name="android:background">@drawable/selector_contacts_item</item>
+    </style>
+</resources>

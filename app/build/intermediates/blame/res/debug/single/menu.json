@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\notifi_actions.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\menu\\notifi_actions.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\em_delete_message.xml",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\menu\\em_delete_message.xml"
+    }
+]

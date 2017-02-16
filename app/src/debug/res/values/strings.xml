@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">慧校test</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="network_is_not_available">网络不可用，请检查网络连接</string>
+    <string name="month">月</string>
+    <string name="whichsection">第几节</string>
+    <string name="day">日</string>
+    <string name="teachername">讲课讲师</string>
+    <string name="the_type_of_course">授课类型</string>
+    <string name="course_title">授课题目</string>
+    <string name="study_theme">学习主题：</string>
+    <string name="study_content">学习笔记：</string>
+    <string name="Content_of_the_source">内容出处：</string>
+    <string name="study_income">学习感悟：</string>
+    <string name="pause">暂停</string>
+    <string name="start">开始</string>
+    <string name="remove">删除</string>
+    <string name="delete_succeed">删除成功</string>
+    <string name="delete_defeated">删除失败</string>
+    <string name="is">是</string>
+    <string name="no">否</string>
+    <string name="isOrNoToDeleteThisFile">是否删除此文件</string>
+    <string name="subjectName">课题名称:</string>
+    <string name="chooseGradeName">选择年级：</string>
+    <string name="chooseSubjectName">选择学科：</string>
+    <string name="chooseTextBook">选择教材:</string>
+    <string name="fileUplode">附件上传：</string>
+    <string name="chooseFile">选择文件:</string>
+    <string name="isOrNoToAdapterGrammar">匹配教案:</string>
+    <string name="selectGrammarFile">选择教案:</string>
+    <string name="openFile">打开文件</string>
+    <string name="downLoadFile">下载</string>
+    <string name="preview">浏览</string>
+    <string name="teachingTime">授课时间</string>
+
+</resources>

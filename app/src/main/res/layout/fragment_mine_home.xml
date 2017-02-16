@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    >
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar_clude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_clude"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/title_color"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/tv_title_clude"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="标题"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size"
+                    />
+
+                <com.rey.material.widget.ImageButton
+                    android:id="@+id/imagbtn_action_clude"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="8dp"
+                    android:background="@null"
+                    android:src="@mipmap/fab_add"
+                    android:visibility="gone"
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@color/title_color"
+            android:orientation="horizontal"
+            >
+
+            <cn.huischool.huixiao.common.widget.widgetofbindcircleImage.CircleImageView
+                android:id="@+id/iv_mine_home_headimg"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_launcher"
+                />
+
+            <TextView
+                android:id="@+id/tv_mine_home_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+
+                />
+
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/space_color"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+            <LinearLayout
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/space_color"
+                android:divider="@drawable/item_divider"
+                android:orientation="vertical"
+                android:showDividers="middle|beginning|end"
+                >
+
+                <TextView
+                    android:id="@+id/ll_mine_home_count"
+                    style="@style/ItemBg"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@mipmap/ic_point_right_black"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="账户相关"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/ll_mine_home_source_ofdownloade"
+                    style="@style/ItemBg"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@mipmap/ic_point_right_black"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+
+                    android:text="我的下载"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/ll_mine_home_feedmsg"
+                    style="@style/ItemBg"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@mipmap/ic_point_right_black"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="意见反馈"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:id="@+id/ll_mine_home_setting"
+                    style="@style/ItemBg"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@mipmap/ic_point_right_black"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="设置"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+</LinearLayout>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    >
+
+    <android.support.v4.widget.NestedScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <include layout="@layout/head_appbar_include"></include>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:background="@color/lightblue"
+                />
+
+            <Spinner
+                android:id="@+id/spinner_tosend_approvalType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:entries="@array/appprovaltype"
+                android:padding="8dp"
+                ></Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/bg_gray"
+                />
+
+            <EditText
+                android:id="@+id/et_tosend_approval_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="start"
+                android:hint="内容0-200个汉字"
+                android:maxEms="200"
+                android:minLines="5"
+                android:padding="15dp"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/bg_gray"
+                />
+
+            <LinearLayout
+                android:id="@+id/ll_tosend_approval_item1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:visibility="invisible"
+
+                >
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="第一审批人:"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv_tosend_approval_target1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="名字"
+                    android:textColor="@color/blue"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv_tosend_approval_deletet1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="删除"
+                    android:textColor="@color/red"
+                    android:visibility="invisible"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_tosend_approval_item2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:visibility="invisible"
+
+                >
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="第二审批人:"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv_tosend_approval_target2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="名字"
+                    android:textColor="@color/blue"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv_tosend_approval_deletet2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="删除"
+                    android:textColor="@color/red"
+                    android:visibility="invisible"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_tosend_approval_item3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:visibility="invisible"
+
+                >
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="第三审批人:"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv_tosend_approval_target3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="名字"
+                    android:textColor="@color/blue"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv_tosend_approval_deletet3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="删除"
+                    android:textColor="@color/red"
+                    android:visibility="invisible"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_tosend_approval_action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blue"
+                    android:src="@drawable/fab_add"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:text="添加审批人"
+                    android:textColor="@color/blue"
+                    />
+            </LinearLayout>
+
+
+            <Spinner
+                android:id="@+id/spinner_tosend_approval_role"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+
+                android:padding="8dp"
+                android:visibility="gone"
+                >
+            </Spinner>
+
+            <Spinner
+                android:id="@+id/spinner_tosend_approval_receivers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:padding="8dp"
+                android:visibility="gone"
+                >
+
+            </Spinner>
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

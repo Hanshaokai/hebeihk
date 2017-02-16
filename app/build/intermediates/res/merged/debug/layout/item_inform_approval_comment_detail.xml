@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    >
+
+
+    <cn.huischool.huixiao.common.widget.widgetofbindcircleImage.CircleImageView
+        android:id="@+id/iv_informapproval_Detail_approversHeadPic"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_launcher"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_informapproval_Detail_approversNames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_informapproval_Detail_approversHeadPic"
+        android:layout_marginLeft="10dp"
+        android:text="审批人"
+        />
+
+    <TextView
+        android:id="@+id/tv_informapproval_Deatail_approverTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/iv_informapproval_Detail_approversHeadPic"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_bg6"
+        android:layout_toRightOf="@+id/iv_informapproval_Detail_approversHeadPic"
+        android:gravity="end"
+        android:paddingRight="8dp"
+        android:text="时间"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_informapproval_Detail_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_informapproval_Detail_approversNames"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_informapproval_Deatail_approverTime"
+        android:layout_toRightOf="@+id/tv_informapproval_Detail_approversNames"
+        android:gravity="end"
+        android:paddingRight="8dp"
+        android:text="审批状态"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_tv_informapproval_Deatail_text_commentwords"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_informapproval_Detail_approversNames"
+        android:layout_marginTop="5dp"
+        android:text="意见说明："
+        />
+
+    <TextView
+        android:id="@+id/tv_informapproval_Deatail_commentwords"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_tv_informapproval_Deatail_text_commentwords"
+        android:layout_toRightOf="@+id/tv_tv_informapproval_Deatail_text_commentwords"
+        android:text="评论"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_tv_informapproval_Deatail_text_commentwords"
+        android:layout_marginTop="2dp"
+        android:background="@color/lightgrey"
+        />
+</RelativeLayout>

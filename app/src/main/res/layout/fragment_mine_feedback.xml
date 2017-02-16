@@ -1,0 +1,58 @@
+<android.support.design.widget.CoordinatorLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    >
+
+    <include layout="@layout/head_appbar_include"></include>
+
+    <android.support.v4.widget.NestedScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            >
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/space_color"
+                />
+
+            <EditText
+
+                android:id="@+id/et_mine_feedback_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+
+                android:gravity="start"
+                android:hint="请填写您遇到关于软件的任何问题，我们会依此进一步改进"
+                android:minLines="10"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

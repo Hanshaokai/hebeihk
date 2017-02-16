@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+
+    >
+
+<RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:padding="3dp"
+    >
+
+    <cn.huischool.huixiao.common.widget.widgetofbindcircleImage.CircleImageView
+        android:id="@+id/civ_checkcourseware_creater_headimg"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <TextView
+        android:id="@+id/tv_checkcourseware_creater_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/civ_checkcourseware_creater_headimg"
+        android:text="名字"
+        android:textSize="15sp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/tv_checkcourseware_coursewarename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/civ_checkcourseware_creater_headimg"
+        android:text="可贵的承诺"
+        android:textSize="18sp"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_checkcourseware_ischeck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/tv_checkcourseware_commentcount"
+        android:text="是否查阅"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_checkcourseware_commentcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginRight="8dp"
+        android:text="评论1"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_checkcourseware_coursewareversions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_checkcourseware_ischeck"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="语文第一册"
+        android:textSize="15sp"
+        />
+</RelativeLayout>
+    </android.support.v7.widget.CardView>

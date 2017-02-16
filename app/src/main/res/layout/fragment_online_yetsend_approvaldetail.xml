@@ -1,0 +1,210 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    >
+
+    <include layout="@layout/head_appbar_include"></include>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestscroll_yetSendApproval_Deatail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/tv_bg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:background="@color/space_color"
+                    />
+
+
+                <TextView
+                    android:id="@+id/tv_sendapproval_Deatail_sender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_bg1"
+                    android:layout_margin="8dp"
+                    android:text="发送人"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_sendapproval_Deatail_approvalType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_bg1"
+                    android:layout_margin="8dp"
+                    android:layout_toRightOf="@+id/tv_sendapproval_Deatail_sender"
+                    android:text="发送类型"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_sendapproval_Deatail_sendtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/tv_bg1"
+                    android:layout_marginRight="8dp"
+                    android:text="发出时间"
+                    />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/tv_bg2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/bg_gray"
+                    />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_bg2"
+                    android:layout_margin="5dp"
+                    android:text="申请内容:"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_sendapproval_Deatail_Content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:minLines="8"
+                    android:text="内容"
+                    android:textColor="@color/silver"
+                    android:textSize="14sp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_sendapproval_Deatail_attach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:orientation="horizontal"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="附件："
+                    android:textColor="@color/silver"
+                    android:textSize="15sp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_sendapproval_Deatail_attach"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/app_name"
+                    android:textColor="@color/silver"
+                    android:textSize="15sp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/space_color"
+                />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="知会人："
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_sendapproval_Deatail_informer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/app_name"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/silver"
+                />
+
+            <TextView
+                android:id="@+id/tv_sendapproval_Detail_t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_bg3"
+                android:layout_margin="5dp"
+                android:text="审批结果:"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/silver"
+                />
+
+            <LinearLayout
+                android:id="@+id/ll_sendapproval_Deatail_commentContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                ></LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

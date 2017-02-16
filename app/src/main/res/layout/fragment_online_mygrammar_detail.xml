@@ -1,0 +1,247 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    >
+
+    <include layout="@layout/head_appbar_include"></include>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestscroll_my_grammardetail_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:background="@color/space_color"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <ImageView
+                    android:id="@+id/iv_my_grammardetail_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_marginTop="5dp"
+                    android:src="@mipmap/docimg"
+                    />
+
+                <TextView
+
+                    android:id="@+id/tv_grammardetail_planversion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/iv_my_grammardetail_img"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toLeftOf="@+id/tv_my_grammardetail_teachername"
+
+                    tools:text="@string/app_name"
+                    android:textSize="16sp"
+
+
+                    />
+
+                <TextView
+
+                    android:id="@+id/tv_grammardetail_planname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_my_grammardetail_creatime"
+
+                    android:layout_marginTop="5dp"
+
+                    tools:text="@string/app_name"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/tv_my_grammardetail_teachername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_my_grammardetail_creatime"
+
+                    android:layout_below="@+id/tv_grammardetail_planname"
+                    android:layout_marginTop="5dp"
+
+                    tools:text="@string/app_name"
+                    android:textSize="16sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv_my_grammardetail_creatime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_my_grammardetail_teachername"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toLeftOf="@+id/fabu"
+                    tools:text="@string/app_name"
+                    android:textSize="16sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/fabu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/tv_my_grammardetail_teachername"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="6dp"
+
+                    android:text="发布"
+                    android:textSize="16sp"
+
+                    />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/silver"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="end"
+                >
+
+                <TextView
+                    android:id="@+id/tv_my_grammardetail_downloadfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="@string/downLoadFile"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp"
+                    android:layout_marginRight="16dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/tv_my_grammardetail_preview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="@string/preview"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/space_color"
+
+                />
+
+
+            <LinearLayout
+                android:id="@+id/ll_my_grammardetail_commentator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/silver"
+
+                />
+
+            <LinearLayout
+                android:id="@+id/ll_my_grammardetail_commentDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                >
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_my_grammardetail_tocomment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/gray04"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+
+        <EditText
+            android:id="@+id/et_my_grammardetail_tocomment_words"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:hint="这里填写您的评语"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_my_grammardetail_tocomment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/butonshape"
+            android:padding="6dp"
+            android:text="发送"
+            android:textSize="18sp"
+
+            />
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

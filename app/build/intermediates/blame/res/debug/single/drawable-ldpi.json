@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_home_black_18dp.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-ldpi\\ic_home_black_18dp.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\app_logo.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\drawable-ldpi\\app_logo.png"
+    }
+]

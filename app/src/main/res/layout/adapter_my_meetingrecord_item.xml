@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp"
+
+        >
+
+
+        <TextView
+            android:id="@+id/tv_my_meetingrecord_notes_meetingrecordname_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_teachername_coord"
+            android:padding="5dp"
+            android:text="内容"
+            android:textSize="18sp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_my_meetingrecord_notes_issubmit_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_my_meetingrecord_notes_meetingrecordname_item"
+
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/tv_browser_coord"
+            android:text="是否提交"
+            android:textSize="15sp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_browser_coord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_my_meetingrecord_notes_meetingrecordname_item"
+
+            android:layout_toLeftOf="@+id/tv_my_meetingrecord_notes_browsercount_item"
+            android:text="批阅"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_my_meetingrecord_notes_browsercount_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_my_meetingrecord_notes_meetingrecordname_item"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/tv_commentcount_coord"
+            android:text="数量"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_commentcount_coord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_my_meetingrecord_notes_meetingrecordname_item"
+            android:layout_toLeftOf="@+id/tv_my_meetingrecord_notes_commentcount_item"
+            android:text="评论"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_my_meetingrecord_notes_commentcount_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_my_meetingrecord_notes_meetingrecordname_item"
+            android:text="数量"
+            android:textSize="15sp"
+            />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

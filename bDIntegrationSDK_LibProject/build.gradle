@@ -1,0 +1,33 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.3'
+
+
+    defaultConfig {
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+//百度性能服务加入
+/*apply plugin: 'apmsdk'*/
+dependencies {
+    //百度性能服务加入
+    /*compile fileTree(dir: 'E:/han/app8/BD_APM_SDK_For_Gradle/UAQ_APM_SDK_For_Gradle/gradle' +
+            '/agent', include: ['*.jar'])*/
+   // compile 'com.android.support:support-v4:23.+'
+    /*百度更新包*/
+    compile files('libs/BDAutoUpdateSDK_20150605_V1.2.0.jar')
+    compile files('libs/need_lib.jar')
+    compile files('libs/patchupdate.jar')
+    //*百度应用统计包*//*
+    compile files('libs/Baidu_Mtj_3.7.3.93.jar')
+    //compile files('libs/robotium-solo-5.1.jar')
+
+}

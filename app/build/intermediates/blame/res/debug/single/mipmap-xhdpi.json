@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\svn\\hebeihk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\headimg.png",
+        "source": "D:\\svn\\hebeihk\\app\\src\\main\\res\\mipmap-xhdpi\\headimg.png"
+    }
+]
